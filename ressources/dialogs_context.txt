@@ -1,0 +1,36 @@
+encoding: encoding.txt
+
+space: 0
+escape: 0xFF
+
+events:
+	past_intro
+	past_governor
+
+controls:
+	- cr
+	- set_font_plane
+	- close
+	- wait
+	- pause
+	- clear
+	- load
+	- white
+	- cyan
+	- purple
+	- green
+	- blue
+	- if
+	- goto
+	- set
+	- clr
+
+define:
+	SCENE_BLACK: 0
+	SCENE_INTRO_1: 1
+	SCENE_INTRO_2: 2
+
+languages:
+	- english
+	- japanese
+	- french

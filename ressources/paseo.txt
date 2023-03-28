@@ -1,0 +1,66 @@
+intro:
+  english: "[if(past_intro, intro2)][load(SCENE_INTRO_1)]I've been having terrible nightmares...[pause]
+
+In them, a young girl is fighting an eldritch demon.[wait]
+
+I watch them battle, but I can't move or speak. All I can do is helplessly look on as the girl is attacked.[clear][load(SCENE_BLACK)]
+
+As always, I wake up just as she's exhausted all her strength.[clear][load(SCENE_INTRO_2)]
+
+I'm now in my bedroom, dimly lit by the early dawn. An indescribable grief consumes me. I desperately hold back the tears in my eyes...[clear]
+
+This is the modern age under the auspices of the supercomputer, Mother Brain. This is not the time to dwell on the nonsense of dreams.[clear]
+
+Such fanciful notions have been replaced by world encompassing digital data.[clear]
+
+I open my window and take a breath of fresh air.[clear]
+
+The crisp morning breeze courses through my body, washing away any ill feelings left from my nightmare.[close]"
+
+  french: "[if(past_intro, intro2)][load(SCENE_BLACK)]Je fais souvent le même cauchemar...[pause]
+
+[load(SCENE_INTRO_1)]Une [purple]jeune fille[white] combat un monstrueux démon.[wait]
+
+Je les regarde se battre, mais je ne peux ni bouger, ni parler. Tout ce que je peux faire, c'est assister impuissant aux assauts du monstre.[wait][load(SCENE_BLACK)]
+
+À chaque fois, je me réveille au moment où elle va succomber.[wait][load(SCENE_INTRO_2)]
+
+Je me réveille dans mon lit, qu'éclairent les premiers rayons de l'aube. Une immense tristesse m'étreint. Je tente désespérément de refouler les larmes qui me montent aux yeux...[wait]
+
+Nous vivons dans l'époque moderne, sous les auspices du super-ordinateur Mother Brain. Il n'est plus temps de s'épancher dans la futilité des rêves.[wait]
+
+L'heure est à la logique d'un monde régi par les données numériques.[wait]
+
+J'ouvre ma fenêtre et prend une bouffée d'air frais.[wait]
+
+La brise matinale se répand dans mon corps, dispersant les derniers souvenirs de mon cauchemar.[set(past_intro)][close]"
+
+  japanese: "[load(SCENE_INTRO_1)]そのころ ぼくは まいばん わるいゆめに うなされていた。[pause]
+
+ひとりの しょうじょが きょだいな あくまのように まがまがしい かいぶつと たたかっているのだ...[wait]
+
+ぼくは ちかくで それを みているのだが うごくことも できず こえも だせず
+しょうじょが まものに いためつけられるのを ただ みていることしか できないのだった...[wait][load(SCENE_BLACK)]
+
+そして しょうじょが ちから つきようと しているところで ぼくは めがさめる。[wait][load(SCENE_INTRO_2)]
+
+よあけの ほのぐらい へやのなかで ぼくは いいようのない かなしみに とらえられ こみあげてくる なみだを ひっしに こらえるのだった...[wait]
+
+ぼくの なまえは ユーシス。 モタビアの しゅと パセオで エージェントとして はたらいている。
+
+ぼくは あたまをふり あたまから ゆめを おいだそうとした。[wait]
+
+マザーブレインという きょだいな メインコンピューターが せかいを しはいする げんだいに おいて、ゆめなどという あいまいな ものに センチメンタルに なるなんて[wait]
+
+ナンセンスいがいの なにものでもない。[wait]
+
+よのなかの できごとは すべて デジタルな データに おきかえられるものなのだから...[wait]
+
+ぼくは まどをあけ あさのくうきを すいこんだ。
+
+すがすがしい くうきが からだのなかを とおりぬけ、ゆめに とらわれていた じぶんが あらいながされていくような きがした...[close]"
+
+intro2:
+  english: "You have passed intro[close]"
+  french: "Vous avez passé l'intro[clr(past_intro)][close]"
+  japanese: "ひとりの[close]"
